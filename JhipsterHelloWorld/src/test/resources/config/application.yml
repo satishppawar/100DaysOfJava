@@ -13,22 +13,12 @@
 # http://docs.spring.io/spring-boot/docs/current/reference/html/common-application-properties.html
 # ===================================================================
 
-eureka:
-  client:
-    enabled: false
-  instance:
-    appname: JhipsterHelloWorld
-    instanceId: JhipsterHelloWorld:${spring.application.instance-id:${random.value}}
-
 spring:
   profiles:
     # Uncomment the following line to enable tests against production database type rather than H2, using Testcontainers
     #active: testcontainers
   application:
     name: JhipsterHelloWorld
-  cloud:
-    config:
-      enabled: false
   datasource:
     type: com.zaxxer.hikari.HikariDataSource
     url: jdbc:h2:mem:jhipsterhelloworld;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
@@ -104,12 +94,9 @@ jhipster:
     from: test@localhost
     base-url: http://127.0.0.1:8080
   security:
-    authentication:
-      jwt:
-        # This token must be encoded using Base64 (you can type `echo 'secret-key'|base64` on your command line)
-        base64-secret: ZGIzZTRiMThiYWMzY2NiZWViZGFhMzgyYzEwMDk0YmU2YmU0NDk2NjYwN2MxOTc5MGUxZjIxZDQ1ODAyYTgzZmRlN2IxNmQwYzM0ZWE1ODI1OTE0ZjJlNmU3NzYzODQ4MTlmNTU5OTk3Yjg4NWJhYmRjNDcxOGY1MTM3MjVjM2U=
-        # Token is valid 24 hours
-        token-validity-in-seconds: 86400
+    remember-me:
+      # security key (this key should be unique for your application, and kept secret)
+      key: c271a8617e500be51135c95a601c76bca399350c466625ca208444b63e1bb5f145b88b5e9b321f1dc3c6b28455c312de455b
 # ===================================================================
 # Application specific properties
 # Add your own application properties here, see the ApplicationProperties class

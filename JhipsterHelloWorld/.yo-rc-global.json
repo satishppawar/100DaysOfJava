@@ -1,7 +1,7 @@
 {
   "generator-jhipster:7.4.0": {
     "promptValues": {
-      "packageName": "demo.mypractise.jhipster",
+      "packageName": "demo.myjhipster",
       "nativeLanguage": "en"
     }
   }

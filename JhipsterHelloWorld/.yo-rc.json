@@ -13,11 +13,11 @@
     "blueprints": [],
     "otherModules": [],
     "pages": [],
-    "creationTimestamp": 1637992062842,
-    "serviceDiscoveryType": "eureka",
+    "creationTimestamp": 1638033925074,
+    "serviceDiscoveryType": "no",
     "reactive": false,
-    "authenticationType": "jwt",
-    "packageName": "demo.mypractise.jhipster",
+    "authenticationType": "session",
+    "packageName": "demo.myjhipster",
     "serverPort": "8080",
     "cacheProvider": "ehcache",
     "enableHibernateCache": false,
@@ -37,11 +37,13 @@
     "nativeLanguage": "en",
     "monorepository": true,
     "skipCommitHook": true,
-    "jwtSecretKey": "ZGIzZTRiMThiYWMzY2NiZWViZGFhMzgyYzEwMDk0YmU2YmU0NDk2NjYwN2MxOTc5MGUxZjIxZDQ1ODAyYTgzZmRlN2IxNmQwYzM0ZWE1ODI1OTE0ZjJlNmU3NzYzODQ4MTlmNTU5OTk3Yjg4NWJhYmRjNDcxOGY1MTM3MjVjM2U=",
+    "rememberMeKey": "c271a8617e500be51135c95a601c76bca399350c466625ca208444b63e1bb5f145b88b5e9b321f1dc3c6b28455c312de455b",
     "devServerPort": 4200,
     "clientPackageManager": "npm",
     "clientThemeVariant": "",
     "languages": ["en"],
-    "enableGradleEnterprise": false
+    "enableGradleEnterprise": false,
+    "lastLiquibaseTimestamp": 1638034363000,
+    "entities": ["Country"]
   }
 }
