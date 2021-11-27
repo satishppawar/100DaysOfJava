@@ -1,5 +1,6 @@
 # Hibernate Reference
 
+- https://github.com/RameshMF/Hibernate-ORM-Tutorials
 ## Official Documentation
 
 - [Hibernate Documentation](https://docs.jboss.org/hibernate/orm/5.4/userguide/html_single/Hibernate_User_Guide.html)
@@ -15,12 +16,17 @@
 - [Hibernate Tutorial by dineshonjava](https://www.dineshonjava.com/hibernate-3-on-baby-steps/)
 - [Hibernate Java by memorynotfound](https://memorynotfound.com/category/database/sql/hibernate/)
 - [Hibernate Tutorial by viralpatel](https://www.viralpatel.net/category/j2ee/hibernate/)
+  
 - [Hibernate by o7planning](https://o7planning.org/10969/hibernate)
--[Hibernate by howtodoinjava ](https://howtodoinjava.com/hibernate-tutorials/)
--[Hibernate by journaldev](https://www.journaldev.com/3793/hibernate-tutorial)
--[Hibernate by javacodegeeks](https://www.javacodegeeks.com/hibernate-tutorials)
+  
+- [Hibernate by howtodoinjava ](https://howtodoinjava.com/hibernate-tutorials/)
+
+- [Hibernate by journaldev](https://www.journaldev.com/3793/hibernate-tutorial)
+
+- [Hibernate by javacodegeeks](https://www.javacodegeeks.com/hibernate-tutorials)
 
 
 
 ## Hibernate Books
 
+- [Java Persistence with Hibernate.pdf](https://github.com/pkdandan/books-2/blob/master/Java%20Persistence%20with%20Hibernate.pdf)
